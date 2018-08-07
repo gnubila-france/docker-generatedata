@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+- Added GD_ENABLE_API env variable to be able to enable the API
 
 ## [3.2.8] - 2018-02-05
 ### FEATURES

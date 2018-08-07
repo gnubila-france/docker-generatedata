@@ -7,6 +7,7 @@ test ${GD_DB_USERNAME}
 test ${GD_DB_PASSWORD}
 export GD_DB_TABLE_PREFIX=${GD_DB_TABLE_PREFIX:-"gd_"}
 export GD_ENCRYPTION_SALT=${GD_ENCRYPTION_SALT:-"changeme"}
+export GD_ENABLE_API=${GD_ENABLE_API:-"false"}
 
 echo "-> configuring application"
 /usr/local/bin/confd -onetime -backend env

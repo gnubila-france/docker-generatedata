@@ -27,6 +27,7 @@ Name | Required | Description
 **GD_DB_PASSWORD**     | *true*  | MySQL database password
 **GD_DB_TABLE_PREFIX** | *false* | MySQL database table prefix (default: **gd_**)
 **GD_ENCRYPTION_SALT** | *false* | Encryption Salt (default: **changeme**)
+**GD_ENABLE_API**      | *false* | Enable API (default: **false**)
 
 Example using an external database:
 
